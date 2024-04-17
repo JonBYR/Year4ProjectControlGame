@@ -17,7 +17,7 @@ public class EnemySpawner : MonoBehaviour
     void Start()
     {
         man = GameManager.Instance;
-        enemySize = 5;
+        enemySize = 3;
         enemiesSpawned = 0;
         StartCoroutine(SpawnEnemy());
     }
